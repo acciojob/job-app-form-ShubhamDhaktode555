@@ -1,16 +1,56 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=".css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <h1>Job App form</h1>
+    <section>
+        <form>
+            <ul>
+                <li>
+                    <label for="name">Name*</label>
+                    <input type="text" name="name" id="name" required> <br>
+                </li>
+                <li>
+                <label for="email">Email*</label>
+                    <input type="email" name="email" id="email" required><br>
+                </li>
+                <li>
+                    <label for="gender">Gender*</label> <br>
+                    <label for="male">Male</label>
+                    <input type="radio" name="male" value="male" required>
+                    <label for="female">Female</label>
+                    <input type="radio" name="male" id="female" required>
+                </li>
+                <li>
+                    <label for="laptopbrand">Laptop</label> <br>
+                    <input type="radio" name="lenovo" id="laptopbrand" required>
+                    <label for="apple">Apple</label>
+                    <input type="radio" name="lenovo" value="asus" required>
+                    <label for="asus">Asus</label>
+                    <input type="radio" name="lenovo" value="hp" required>
+                    <label for="hp">HP</label>
+                </li>   
+                <li>
+                    <label for="age">Age*</label>
+                    <input type="number" name="age" id="age" required>
+                </li>
+                <li>
+                    <label for="dob">DOB*</label>
+                    <input type="date" name="dob" id="dob" required>
+                </li>
+                <li>
+                    <label for="password">Password*</label>
+                    <input type="password" name="password" id="password" required>
+                </li>
+                    <button>Submit</button>
+            </ul>
+        </form>
+    </section>
 </body>
-
 </html>
